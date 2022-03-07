@@ -31,6 +31,9 @@ html, body {
 header {
     height: 80px;
     line-height: 80px;
+    background: rgb(143,131,210);
+    background: linear-gradient(90deg, rgba(143,131,210,1) 0%, rgba(207,157,180,1) 62%);
+    color: #fff;
 }
 
 header div {
@@ -46,6 +49,7 @@ header div h1 a {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
+    color: #fff;
 }
 
 /* main_visual 메인 비주얼 */
@@ -149,13 +153,17 @@ header div h1 a {
 }
 
 .best .best_box .info ul li:first-of-type {
-    /* background-color: #333; */
     background: rgb(143,131,210);
     background: linear-gradient(90deg, rgba(143,131,210,1) 0%, rgba(207,157,180,1) 62%);
 }
 
 .best .best_box .info ul li:first-of-type a {
     color: #fff;
+}
+
+.best .best_box .info ul li:first-of-type:hover {
+    background: rgb(143,131,210);
+    background: linear-gradient(90deg, rgb(130, 117, 206) 0%, rgb(194, 123, 157) 62%);
 }
 
 .best .best_box .youtube_list {
@@ -369,12 +377,21 @@ footer ul li {
 }
 footer ul li:first-of-type {
     background-color: #fff;
+    transition: 1s;
 }
 
 footer ul li:first-of-type a {
     color: rgb(140, 67, 182);
     font-weight: bold;
 }
+
+footer ul li:first-of-type:hover {
+    background-color: rgba(255, 255, 255, 0.603);   
+    transition: 1s;
+    box-shadow: 10px 5px 5px rgba(51, 51, 51, 0.253);
+}
+
+
 
 footer p {
     font-size: 1px;
