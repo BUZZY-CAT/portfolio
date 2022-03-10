@@ -404,6 +404,13 @@ footer p {
     /* color: #fff; */
     margin: 150px 0;
 }
+
+.web_wrap h3 {
+    font-family: 'YUniverse-B';
+    font-size: 45px;
+    color: rgb(140, 67, 182);
+}
+
 .web_wrap .web_box {
     width: 1280px; 
     margin: 0 auto;
